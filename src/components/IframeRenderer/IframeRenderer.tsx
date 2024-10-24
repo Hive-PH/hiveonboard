@@ -35,7 +35,7 @@ export function IframeRenderer() {
       {iframeUrl && (
         <div className="flex-grow">
           <iframe
-            src={iframeUrl}
+            src={`https://www.proxysite.com/go.php?u=${iframeUrl}`}
             title="Rendered Content"
             className="w-full h-full border border-gray-300"
           ></iframe>
